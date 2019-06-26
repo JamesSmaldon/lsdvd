@@ -251,6 +251,8 @@ char output_option(char *arg)
 		return 'x';
 	} else if (strcmp(arg, "human") == 0) {
 		return 'h';
+	} else if (strcmp(arg, "json") == 0) {
+		return 'j';
 	} else {
 		return '\0';
 	}
@@ -559,6 +561,9 @@ int main(int argc, char *argv[])
 				break;
                         case 'd':
 				ocode_print(&debug_syntax, &dvd_info);           
+				break;
+			case 'j':
+				ocode_print(&json_syntax, &dvd_info);
 				break;
 			default :
 				ohuman_print(&dvd_info);	
