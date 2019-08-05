@@ -95,12 +95,12 @@ struct Syntax ruby_syntax = {
         "<hash_inner>%s</hash_inner>",
         "{\n",
         "<array_outer>%s</array_outer>",
-        ":%s => [",
+        ":%s => [\n",
         ",\n",
-        "}\n",
+        "}",
         "<return_array_outer/>",
-        "}\n",
-        "]\n",
+        "}",
+        "]",
 	"\'"
 };
 
