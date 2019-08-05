@@ -223,6 +223,7 @@ void usage()
 	fprintf(stderr, "\t  -Oy output as Python\n");
 	fprintf(stderr, "\t  -Or output as Ruby\n");
 	fprintf(stderr, "\t  -Ox output as XML\n");
+    fprintf(stderr, "\t  -Oj output as JSON\n");
 	//fprintf(stderr, "\t  -p output as Perl [deprecated]\n");
 	fprintf(stderr, "\n");
 	fprintf(stderr, "\tOther options:\n");
